@@ -4,7 +4,7 @@ inject_into_file 'Gemfile', after: "source 'https://rubygems.org'\n" do
   "ruby File.read '.ruby-version'\n\n"
 end
 
-file '.ruby-version', '2.1.0'
+file '.ruby-version', '2.1.1'
 
 gem 'devise'
 gem 'twitter-bootstrap-rails'
